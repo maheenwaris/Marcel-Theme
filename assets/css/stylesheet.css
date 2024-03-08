@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* Home card */
+.cardmain{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.card1{
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    align-items: center; 
+}
+.cardimg{
+    width: 15%;
+}
+.cardimg img{
+    border-radius: 50px;
+    width: 80%;
+}
+.card2{
+    width: 90%;
+}
+.card2 p{
+    margin: 0%;
+    font-size: 13px;
+    font-weight: 500;
+}
+.card3{
+    text-decoration: none;
+    color: black;
+}
+.card3:hover{
+    color: #e84a43;
+}
+.card3 p{
+    font-size: 17px;
+}
+
+.cardend1{
+    display: flex;
+    justify-content: space-between;
+}
+.cardend1 i{
+    color: #e84a43;
+}
+.cardend2 a{
+    text-decoration: none;
+    color: black;
+}
+.cardend2 a:hover{
+    color: #e84a43;
+}
+.cardbtn a{
+    width: 15%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.cardbtn a button{
+    width: 15%;
+    background-color: black;
+    color: white;
+}
+.cardbtn a button:hover{
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+}
+
+/* Footer */
+.homeabout1{
+    display: flex;
+}
+.homeabout2{
+    margin-left: 3%;
+}
+.homeabout2 b{
+    font-size: 25px;
+}
+.homeabout2 p{
+    font-weight: 600;
+}
+.homeabout2 p a{
+    text-decoration: none;
+    color: grey;
+}
+
+/* Subscription */
+.subscribe{
+    display: flex;  
+    justify-content: space-between;
+}
+.subscribe h5{
+    font-size: 27px;
+    font-weight: 700;
+}
+.subscribe1{
+    width: 60%;
+}
+.subscribe1 input{
+    width: 100%;
+    height: 40%;   
+}
+.subscribebtn{
+    margin-top: 2%;
+    background-color: black;
+    border: none;
+}
+.subscribebtn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* links & Footer */
+.footerborder{
+    width: 5%;
+    border: 3px solid black;
+}
+.footericon a{
+    text-decoration: none;
+    color: black;
+}
+.footericon a i{
+    margin-right: 1%;
+}
+.footercopyright p{
+    font-size: 13px;
+    color: grey;
+}
+
