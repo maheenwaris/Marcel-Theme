@@ -134,6 +134,27 @@
 }
 
 
+/* Tools Page */
+.tool1 b a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+.tool1 p{
+    font-size: 17px;
+}
+.tool2{
+    margin-left: 8%;
+}
+.tool3 b a{
+    color: black;
+    font-size: 18px;
+}
+.tool2 p{
+    font-size: 17px;
+}
+
+
 
 /* ABOUT PAGE */
 .aboutheading{
