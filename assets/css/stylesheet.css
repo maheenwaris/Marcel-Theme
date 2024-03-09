@@ -34,7 +34,7 @@
     color: black;
 }
 .card3:hover{
-    color: #e84a43;
+    color: #EE8226;
 }
 .card3 p{
     font-size: 17px;
@@ -45,14 +45,14 @@
     justify-content: space-between;
 }
 .cardend1 i{
-    color: #e84a43;
+    color: #EE8226;
 }
 .cardend2 a{
     text-decoration: none;
     color: black;
 }
 .cardend2 a:hover{
-    color: #e84a43;
+    color: #EE8226;
 }
 .cardbtn a{
     width: 15%;
@@ -138,6 +138,7 @@
     width: 27%;
     background-color:hsl(0, 0%, 90%);
     margin-right: 1%;
+    padding-top: 1%;
     display: block;
     text-align: justify;
 }
