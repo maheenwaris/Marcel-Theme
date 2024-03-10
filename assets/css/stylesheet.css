@@ -8,12 +8,14 @@
     height: 63px;
 }
 .navmain{
-    width: 35%;
+    width: 400px;
     display: flex;  
     align-items: center;
 }
 .navbartext a{
     font-size: 13px;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 .navbartext a:hover{
     color: grey;
@@ -45,7 +47,7 @@
     background-color: white;
     border: 5px solid black;
     position: relative;
-    width: 43%;
+    width: 500px;
 }
 .navheading1 a{
     display: flex;
