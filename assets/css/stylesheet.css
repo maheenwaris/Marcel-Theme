@@ -4,18 +4,33 @@
 }
 
 /* Navbar */
+.navv{
+    /* background-color: palevioletred; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navvv{
+    /* background-color: palegreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .navbarmain{
+    /* background-color: paleturquoise; */
     height: 63px;
+    width: 100%;
 }
 .navmain{
-    width: 400px;
+    width: 360px;
     display: flex;  
     align-items: center;
+    padding: 0%;
+    margin: 0%;
 }
 .navbartext a{
     font-size: 13px;
-    padding-left: 7%;
-    padding-right: 7%;
 }
 .navbartext a:hover{
     color: grey;
@@ -33,11 +48,9 @@
 .navicon a{
     text-decoration: none;
     color: black;
+    margin-right: 1%; 
     padding-left: 8%;
     padding-right: 8%;
-}
-.navicon a{
-    margin-right: 1%;
 }
 .navheading1 {
     display: flex;
@@ -48,30 +61,6 @@
     border: 5px solid black;
     position: relative;
     width: 500px;
-}
-.navheading1 a{
-    display: flex;
-    text-decoration: none;
-    color: black;
-}
-.navheading1 a p{
-    padding: 0%;
-    margin: 0%;
-}
-.navhead1{
-    font-size: 60px;
-    font-weight: 800;
-    color:#EE8226;
-}
-.navhead2{
-    font-size: 60px;
-    font-weight: 800;
-    color: grey;
-}
-.navhead3{
-    color: grey;
-    font-weight: 700;
-    margin-top: 4% !important;
 }
 
 
@@ -143,7 +132,7 @@
     border: 5px solid black;
 }
 
-/* Footer */
+/* Home About */
 .homeabout1{
     display: flex;
 }
@@ -161,7 +150,7 @@
     color: grey;
 }
 
-/* Subscription */
+/*  footer Subscription */
 .subscribe{
     display: flex;  
     justify-content: space-between;
@@ -203,6 +192,10 @@
     font-size: 13px;
     color: grey;
 }
+
+
+/* Blog page */
+
 
 
 /* Training page */
