@@ -61,6 +61,8 @@
     border: 5px solid black;
     position: relative;
     width: 500px;
+    /* z-index: 1;
+    margin-top: 20px; */
 }
 
 
@@ -195,7 +197,36 @@
 
 
 /* Blog page */
-
+.blogfilter ul {
+    padding: 0%;
+    /* background-color: palevioletred; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    text-align: center !important;
+}
+.blogfilter ul li {
+    list-style: none;
+}
+.blogfilter ul li a {
+    text-decoration: none;
+    color: black;
+}
+.blogfilter ul li a:hover{
+    color: #EE8226;
+}
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+}
+.blogsearch {
+    display: flex;
+    justify-content: end;
+    /*align-items: center;*/
+}
+.blogsearch a {
+    color: black;
+}
 
 
 /* Training page */
