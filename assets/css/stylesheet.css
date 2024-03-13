@@ -284,6 +284,45 @@
 .blogdetail6 a{
    font-size: 15px;
 }
+/* recent post */
+.recentpostmain{
+    display: flex;
+    justify-content: space-between;
+}
+.recentpostmain p a{
+    text-decoration: none;
+    color: black;
+}
+.recentpostmain p a:hover{
+    color: #EE8226;
+}
+.recentpost{
+    border: .5px solid grey;
+}
+.recentpost h5 a{
+    text-decoration: none;
+    color: black;
+}
+.recentpost h5 a:hover{
+    color: #EE8226;
+}
+
+.recentpost3{
+    display: flex;
+    justify-content: center;
+}
+.recentpost1{
+    width: 100%;
+    display: flex;
+}
+.recentpost2{
+    display: flex;
+}
+.recentpost2 i{
+    display: flex;
+    align-items: center;
+    padding-left: 3% !important;
+}
 
 
 /* Training page */
