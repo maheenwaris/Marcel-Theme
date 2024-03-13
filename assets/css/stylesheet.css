@@ -229,6 +229,63 @@
 }
 
 
+/* Blog Detail */
+.blogdetailmain {
+    border: 1px solid black;
+}
+.blogdetail {
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+}
+.blogdetail img {
+    border-radius: 50px;
+    width: 6%;
+}
+.blogdetail p {
+    margin: 0%;
+    margin-left: 2%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.blogdetail1{
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 3%;
+}
+.blogdetail2{
+    display: flex;
+}
+.blogdetail2 img{
+    margin: .5%;
+}
+.blogdetail3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blogdetail4{
+    width: 50%;
+}
+.blogdetail4 a{
+    text-decoration: none;
+    color: black;
+    padding-right: 6%;
+    padding-left: 6%;
+    font-size: 18px;
+}
+.blogdetail5{
+    font-size: 18px;
+}
+.blogdetail6{
+    width: 50%;
+}
+.blogdetail6 a{
+   font-size: 15px;
+}
+
+
 /* Training page */
 .training1{
     width: 27%;
